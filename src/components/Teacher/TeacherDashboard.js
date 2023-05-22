@@ -1,15 +1,15 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 
-import Sidebar from './Sidebar';
+import TeacherSidebar from './TeacherSidebar';
 
 
-const Dashboard = () => {
+const TeacherDashboard = () => {
   return (  
     <div className='container mt-5' style={{textAlign:'left'}}>
     <div className='row'>
         <aside className="col-md-3">
-       <Sidebar />
+       <TeacherSidebar />
         </aside>
         <section className="col-md-9">
             
@@ -20,4 +20,4 @@ const Dashboard = () => {
   )
 }
 
-export default Dashboard;
+export default TeacherDashboard;
